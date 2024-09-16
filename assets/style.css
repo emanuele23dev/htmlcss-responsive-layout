@@ -240,4 +240,19 @@ ul{
   .first-section .score {
     align-content: center;
   }
-}
+
+  .col-12{
+    display: flex;
+   img{
+        width: 100%;
+        }
+    
+        .info{
+        width: 25%;
+        padding-bottom: 390px;
+        display: flex;
+        flex-direction: column;
+        }
+  }
+  
+} 
