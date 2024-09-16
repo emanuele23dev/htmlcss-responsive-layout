@@ -198,20 +198,20 @@ ul {
 /* END BANNER  */
 
 /* FOURTH SECTION  */
-.fourth-section{
-    p{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        line-height: 30px;
-    }
-} 
-
-img {
-    display: flex;
-    margin: auto;
+.fourth-section {
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
   }
+}
+
+.sweet-2 {
+  display: flex;
+  margin: auto;
+}
 
 hr {
   margin-top: 20px;
@@ -219,6 +219,41 @@ hr {
   max-width: 70px;
   border: 1px solid orange;
 }
+/* END FOURTH SECTION  */
+
+/* FOOTER  */
+.d-flex-footer {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+
+  h4 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+
+  P {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+
+  .link-f {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    a {
+      color: white;
+      font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 2;
+    }
+  }
+}
+/* END FOOTER  */
 
 /* MEDIA QUERY  */
 
@@ -242,11 +277,11 @@ hr {
 
   .first-section .veg {
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .sweet-t-md {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .first-section .score {
@@ -286,10 +321,25 @@ hr {
     margin-bottom: 40px;
   }
 
-  img{
+  .sweet-2-md {
     float: left;
     margin-right: 10px;
     margin-top: 10px;
+  }
+
+  .d-flex-footer-md {
+    h4,
+    p {
+      font-size: 16px;
+    }
+
+    .link-f {
+      a {
+        font-size: 16px;
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+    }
   }
 }
 
@@ -310,11 +360,11 @@ hr {
 
   .first-section .veg {
     display: inline-block;
-    font-size: 45px;
+    font-size: 30px;
   }
 
   .sweet-t-l {
-    font-size: 45px;
+    font-size: 30px;
   }
 
   .first-section .score {
@@ -366,9 +416,10 @@ hr {
     margin-bottom: 50px;
   }
 
-  img{
+  .sweet-2-l {
     float: left;
     margin-right: 10px;
     margin-top: 10px;
   }
 }
+/* END MEDIA QUERY  */
