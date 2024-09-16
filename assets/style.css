@@ -8,6 +8,10 @@ img {
   max-width: 100%;
 }
 
+body{
+    background-color: rgb(214, 214, 214);
+}
+
 header {
   font-family: "Nerko One", cursive;
 }
@@ -15,4 +19,39 @@ header {
 main,
 footer {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+/* HEADER  */
+
+.container{
+    background-color: white;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .title{
+    color: orange;
+    font-weight: bold;
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 360px) {
+
+}
+
+@media screen and (min-width: 768px) {
+.container{
+   .title{
+    margin-left: 20px;
+   }
+}
+}
+
+@media screen and (min-width: 992px) {
+.container{
+    .title{
+    margin-left: 20px;
+   }
+}
 }
