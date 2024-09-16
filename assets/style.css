@@ -9,7 +9,7 @@ img {
 }
 
 body{
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(240, 240, 240);
 }
 
 header {
@@ -35,7 +35,48 @@ footer {
     margin: auto;
 }
 }
+/* END HEADER  */
 
+/* MAIN  */
+/* FIRST SECTION  */
+.container-main{
+  width: 85%;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.first-section{
+    p{
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(53, 53, 53);
+}
+
+.sweet-t{
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+a{
+text-decoration: none;
+color: whitesmoke;
+background-color: orange;
+padding: 5px 10px;
+border-radius: 20px;
+}
+
+.sweet{
+    color: rgb(198, 198, 198);
+}
+
+}
+
+/* MEDIA QUERY  */
 @media screen and (min-width: 360px) {
 
 }
