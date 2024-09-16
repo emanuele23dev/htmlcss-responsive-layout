@@ -8,8 +8,8 @@ img {
   max-width: 100%;
 }
 
-body{
-    background-color: rgb(240, 240, 240);
+body {
+  background-color: rgb(240, 240, 240);
 }
 
 header {
@@ -23,23 +23,23 @@ footer {
 
 /* HEADER  */
 
-.container{
-    background-color: white;
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.container {
+  background-color: white;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-    .title{
+  .title {
     color: orange;
     font-weight: bold;
     margin: auto;
-}
+  }
 }
 /* END HEADER  */
 
 /* MAIN  */
 /* FIRST SECTION  */
-.container-main{
+.container-main {
   width: 85%;
   margin: auto;
 }
@@ -50,49 +50,69 @@ footer {
   flex-direction: row;
 }
 
-.first-section{
-    p{
+.first-section {
+  p {
     display: inline-block;
     margin-top: 20px;
     color: rgb(53, 53, 53);
-}
+  }
 
-.sweet-t{
+  .sweet-t {
     color: blueviolet;
     margin-top: 20px;
-}
+  }
 
-a{
-text-decoration: none;
-color: whitesmoke;
-background-color: orange;
-padding: 5px 10px;
-border-radius: 20px;
-}
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
 
-.sweet{
+  .sweet {
     color: rgb(198, 198, 198);
-}
+  }
 
+  .veg{
+    display: none;
+  }
 }
 
 /* MEDIA QUERY  */
 @media screen and (min-width: 360px) {
-
 }
 
 @media screen and (min-width: 768px) {
-.container{
-   .title{
-    margin-left: 20px;
-   }
-}
+  .container {
+    .title {
+      margin-left: 20px;
+    }
+  }
+
+  .container-main-tab {
+    width: 75%;
+    margin: auto;
+  }
+  
+  .first-section .veg{
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 992px) {
-.container{
-    .title{
-    margin-left: 20px;
-   }
-}
+  .container {
+    .title {
+      margin-left: 20px;
+    }
+  }
+
+  .container-main-desk {
+    width: 65%;
+    margin: auto;
+  }
+
+   .first-section .veg{
+    display: inline-block;
+  }
 }
