@@ -153,22 +153,43 @@ footer {
   font-weight: bold;
 }
 
-ul{
-    list-style: none;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 20px;
-    li{
-        font-size: 10px;
-        margin-top: 5px;
-    }
+ul {
+  list-style: none;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  li {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
+/* END SECOND SECTION  */
+
+/* THIRD SECTION  */
+.d-flex-social {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 20px;
+
+  a {
+    background-color: white;
+    height: 25px;
+    width: 30px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+  }
+}
+
+.social-f, .social-t, .social-i, .social-p, .social-y{
+    display: none;
 }
 
 /* MEDIA QUERY  */
 
 @media screen and (min-width: 360px) {
 }
-
 
 @media screen and (min-width: 768px) {
   .first-section {
@@ -198,20 +219,34 @@ ul{
     align-content: center;
   }
 
-  .ul-md{
+  .ul-md {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 80%;
-    li{
-        font-size: 10px;
-        margin-top: 20px;
-        margin-left: 10px
+    li {
+      font-size: 10px;
+      margin-top: 20px;
+      margin-left: 10px;
     }
+  }
 
+  .d-flex-social-md{
+    display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 20px;
+  a{
+    background-color: white;
+    height: 20px;
+    width: 50px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
   }
 }
-
+  
+}
 
 @media screen and (min-width: 992px) {
   .first-section {
@@ -241,18 +276,38 @@ ul{
     align-content: center;
   }
 
-  .col-12{
+  .col-12 {
     display: flex;
-   img{
-        width: 100%;
-        }
-    
-        .info{
-        width: 25%;
-        padding-bottom: 390px;
-        display: flex;
-        flex-direction: column;
-        }
+    img {
+      width: 100%;
+    }
+
+    .info {
+      width: 25%;
+      padding-bottom: 390px;
+      display: flex;
+      flex-direction: column;
+    }
   }
-  
-} 
+
+  .d-flex-social-l{
+    display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 20px;
+  a{
+    background-color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+  }
+}
+
+  .social-f, .social-t, .social-i, .social-p, .social-y{
+    display: inline-block;
+    padding-left: 5px;
+    color: black;
+}
+}
